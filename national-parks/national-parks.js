@@ -4,7 +4,6 @@ const searchByParkType = document.querySelector("#searchByParkType");
 const searchByNationalPark = document.querySelector("#searchByNationalPark");
 const parksInformation = document.querySelector("#parksInformation");
 
-// setting up event listeners for various elements on the page
 window.onload = function () {
   searchFilter.addEventListener("change", handleFilterDropdownChange);
   searchByLocation.addEventListener("change", handleLocationChange);
@@ -17,7 +16,6 @@ window.onload = function () {
   parksInformation.style.display = "none";
 };
 
-// displaying different sets of search options based on the selected value of the search filter dropdown
 function handleFilterDropdownChange() {
   hideElements();
 
@@ -33,7 +31,6 @@ function handleFilterDropdownChange() {
   }
 }
 
-// functions to add options dynamically to select elements based on different criteria
 function populateOptions(element, options) {
   element.innerHTML = "";
 
@@ -60,7 +57,6 @@ function populateAllOptions() {
   );
 }
 
-// change events
 function handleLocationChange() {
   const selectedLocation = searchByLocation.value;
 
