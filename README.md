@@ -1,1 +1,3 @@
 This project is titled "Enjoy The Oudoors" and it allows the user to search for parks by: location, park type or all. Once you select a location then a list of parks will pop up from that location. You then may select a park and it will give you the address of that park. The Mountains page allows the user to select a mountain and then a description of that mountain will appear giving you the elevation, difficulty, coordinates, sunrise, and sunset.
+
+A piece of JavaScript that I find interesting would be the "if" statement. I find this one very useful and easy to use when you need to specify a block of JavaScript code to be executed if a condition is true.
